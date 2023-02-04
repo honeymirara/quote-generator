@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-style: normal;
+    font-family: "Roboto";
+
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+    background-color: #837FB1;
+
+}
+
+h1 {
+    font: 400 48px "Roboto";
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.wrapper {
+    margin: auto;
+    padding: 15px 0 0 15px;
+    width: 700px;
+    height: 359px;
+    background: #212931;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 21px;
+}
+
+.img {
+    width: 57px;
+    height: 13px;
+    background-image: url(./assets/Group\ 15.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+.center p {
+    margin: auto;
+    color: #FFFFFF;
+    font: 400 20px "Roboto";
+
+}
