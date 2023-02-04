@@ -14,8 +14,8 @@ let flag = false;
 function doRandomQuote(array) {
     try {
         let rand = Math.round(Math.random() * 8);
-        quote.textContent = array[rand];;
-        console.log(array[rand])
+        quote.textContent = array[rand];
+        console.log(array[rand]);
         if (!array[rand]) throw new Error('Нет такого элемента')
         else quote.textContent = array[rand];
 
@@ -33,4 +33,4 @@ function doRandomQuote(array) {
 
 }
 
-setInterval(doRandomQuote, 3000, arr)
+setInterval(doRandomQuote, 3000, arr);
